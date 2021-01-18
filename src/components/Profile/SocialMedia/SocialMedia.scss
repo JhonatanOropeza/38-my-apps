@@ -1,0 +1,14 @@
+.SocialMedia{
+    background-color: #BC9A1A ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+    .Icon{
+        fill: #fff !important;
+        margin:0 30px;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}

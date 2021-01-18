@@ -1,0 +1,57 @@
+.projects{
+    h1{
+        margin: 50px 0 30px 0;
+    }
+    .project{
+        margin-bottom: 30px;
+        .image{
+            height: 200px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .divButton{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a{
+                button{
+                    background-color: #BC9A1A;
+                    border-color: #BC9A1A;
+                    width: 100%;
+                    text-transform: uppercase;
+                    &:active {
+                        background-color: #BC9A1A !important;
+                        border-color: #BC9A1A !important;
+                        box-shadow: 0 0 0 0.2rem rgba(249, 231, 159,.5) !important;
+                    }
+                    &:visited {
+                        background-color: #BC9A1A;
+                        border-color: #BC9A1A;
+                    }
+                    &:focus {
+                        background-color: #BC9A1A;
+                        border-color: #BC9A1A;
+                        box-shadow: 0 0 0 0.2rem rgba(249, 231, 159,.5) !important;
+                    }
+                    &:focus-within {
+                        background-color: #BC9A1A;
+                        border-color: #BC9A1A;
+                    }
+                    &:focus-visible {
+                        background-color: #BC9A1A;
+                        border-color: #BC9A1A;
+                    }
+                    &:hover {
+                        background-color: #9A7D0A;
+                        border-color: #9A7D0A;
+                    }
+                }
+            }
+        }
+    }
+}
+.boton_poryectos{
+    background-color: #BC9A1A ;
+    border-color: #BC9A1A;
+}

@@ -1,0 +1,42 @@
+.about-me{
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    p{
+        text-align: justify;
+    }
+    button{
+        background-color: #BC9A1A;
+        border-color: #BC9A1A;
+        
+        &:active {
+            background-color: #BC9A1A !important;
+            border-color: #BC9A1A !important;
+            box-shadow: 0 0 0 0.2rem rgba(249, 231, 159,.5) !important;
+        }
+        &:visited {
+            background-color: #BC9A1A;
+            border-color: #BC9A1A;
+        }
+        &:focus {
+            background-color: #BC9A1A;
+            border-color: #BC9A1A;
+            box-shadow: 0 0 0 0.2rem rgba(249, 231, 159,.5) !important;
+        }
+        &:focus-within {
+            background-color: #BC9A1A;
+            border-color: #BC9A1A;
+        }
+        &:focus-visible {
+            background-color: #BC9A1A;
+            border-color: #BC9A1A;
+        }
+        &:hover {
+            background-color: #9A7D0A;
+            border-color: #9A7D0A;
+        }
+    }
+}

@@ -13,13 +13,13 @@ export default function Menu({menuColor}) {
             <Container>
                 <ul>
                     <li>
-                    <Link to="/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio</Link>
+                    <Link to="/">&nbsp;&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;&nbsp;</Link>
                     </li>
                     <li>
                         <Link to="/skills">Habilidades&nbsp;</Link>
                     </li>
                     <li>
-                        <Link to="/proyects">Proyectos</Link>
+                        <Link to="/projects">Proyectos</Link>
                     </li>
                 </ul>
             </Container>
