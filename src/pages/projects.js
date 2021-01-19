@@ -3,11 +3,13 @@ import BasicLayout from "../Layouts/BasicLayout";
 import './projects.scss';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import AppArray from '../utils/projectsUtils';
+import Seo from '../components/Seo/Seo';
 
 export default function Projects() {
-    console.log(AppArray)
+
     return (
         <BasicLayout menuColor="#000">
+            <Seo title="Proyectos"/>
             <Container className="projects">
                 <h1>Proyectos</h1>
                 <Row >

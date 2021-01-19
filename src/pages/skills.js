@@ -12,11 +12,13 @@ import {
     othersSkills, othersSkillsColors,
     languages, languagesColors
 } from '../utils/skills'
+import Seo from '../components/Seo/Seo';
 
 export default function Skills() {
     return (
         <BasicLayout menuColor="#000">
             <Container className="skills">
+                <Seo title="Habilidades"/>
                 <div className="skills__block">
                     <h2>Backend</h2>
                     <SkillList skills={backendSkills} colors={backendSkillsColors}/>
