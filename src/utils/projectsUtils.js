@@ -8,20 +8,23 @@ export default [
         description: `Some quick example text to build on the card title and make up the bulk of
         the card's content.`,
         url:"https://facebook.com",
-        image: EnglishWords
+        image: EnglishWords,
+        fileName:"EnglishWords.png"
     },
     {
         title: "Red social",
         description:`Some quick example text to build on the card title and make up the bulk of
         the card's content.`,
         url:"https://www.instagram.com",
-        image: Clontagram
+        image: Clontagram,
+        fileName:"Clontagram.png"
     },
     {
         title: "Plataforma de cursos",
         description:`Some quick example text to build on the card title and make up the bulk of
         the card's content.`,
         url:"https://www.capacitateparaelempleo.org",
-        image: OnlineCourses
+        image: OnlineCourses,
+        fileName:"OnlineCourses.png"
     }
 ]

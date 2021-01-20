@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, StaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-export default function ImageG({ fileName, alt }) {
+export default function ImageG({ fileName, alt}) {
 
     return (
         <StaticQuery
@@ -28,7 +28,7 @@ export default function ImageG({ fileName, alt }) {
                     return image.node.relativePath.includes(fileName);
                 });
                 if (!image) return null;
-                return <Img alt={alt} fluid={image.node.childImageSharp.fluid} />
+                return <Img alt={alt} fluid={image.node.childImageSharp.fluid}/>
             }}
         />
     )

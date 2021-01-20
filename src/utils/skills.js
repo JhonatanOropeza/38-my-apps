@@ -8,7 +8,7 @@ export const backendSkillsColors = {
     title: {
         text: "#fff",
         background: "#F4D03F"
-    }
+    },
 }
 
 //------------------ Database --------------------------

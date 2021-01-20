@@ -1,9 +1,9 @@
 import React from 'react'
-import { Container, Row, Col, Image} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import SocialMedia from './SocialMedia/SocialMedia';
 import ImageG from '../0_General/ImageG';
-//import backgroundImage from '../../images/3_architecture.jpg';
+import BackgroundSection from '../0_General/BackgroundSection';
 
 import './Profile.scss';
 
@@ -17,32 +17,40 @@ const data = [
 export default function Profile() {
     return (
         <div className="profile">
-            <div className="wallpaper">
-                <ImageG fileName="3_architecture.jpg" alt="portada" />
-            </div>
+            <BackgroundSection />
             <div className="dark" />
-            <Container className='box'>
-                <Row className="info">
-                    <Col xs={12} md={4}>
-                        <ImageG fileName="avatar.jpg" alt="Jhonatan Isac Oropeza Mendoza"/>
-                    </Col>
-                    <Col xs={12} md={8} className="info__data">
-                        <p>Jhonatan Isaac Oropeza Mendoza</p>
-                        <p>Desarrollador Web</p>
-                        <hr />
-                        <div className="more__info">
-                            {
-                                data.map((item, i) => (
-                                    <div key={i} className="item">
-                                        <p>{item.title}</p>
-                                        <p>{item.info}</p>
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </Col>
-                </Row>
-                <SocialMedia />
+            <Container>
+                <Container className='box'>
+                    <Row className="info">
+                        <Col xs={12} md={4} className="info__image">
+                            <ImageG fileName="avatar.jpg" alt="Jhonatan Isac Oropeza Mendoza" />
+                        </Col>
+                        <Col xs={12} md={8} className="info__data">
+                            <p>Jhonatan Isaac Oropeza Mendoza</p>
+                            <p>Desarrollador Web</p>
+                            <div className="more__info">
+
+                                {
+                                    data.map((item, i) => (
+                                        <div key={i} className="item">
+                                            <Row className="item__row">
+                                                <Col xs={12} md={5}>
+                                                    <p className="PrimerP">{item.title}</p>
+                                                </Col>
+                                                <Col xs={12} md={7}>
+                                                    <p className="SegundoP">{item.info}</p>
+                                                </Col>
+                                            </Row>
+                                        </div>
+
+                                    ))
+                                }
+
+                            </div>
+                        </Col>
+                    </Row>
+                    <SocialMedia />
+                </Container>
             </Container>
         </div>
     )
