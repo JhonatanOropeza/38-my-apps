@@ -27,7 +27,7 @@ export default function Profile() {
                         </Col>
                         <Col xs={12} md={8} className="info__data">
                             <p>Jhonatan Isaac Oropeza Mendoza</p>
-                            <p>Desarrollador Web</p>
+                            <p>Desarrollador Webb</p>
                             <div className="more__info">
 
                                 {
