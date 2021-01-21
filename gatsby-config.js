@@ -31,10 +31,10 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#bc9a1a`,
-        theme_color: `#000`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-        theme_color_in_head: false,
+        //theme_color_in_head: false,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
