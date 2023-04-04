@@ -10,8 +10,8 @@ import './Profile.scss';
 const data = [
     { title: 'TELÉFONO: ', info: '55 33 20 29 75' },
     { title: 'EMAIL: ', info: 'jhon_oropeza810@hotmail.com' },
-    { title: 'DIRECCIÓN 1: ', info: 'C. Queretaro #95 Huitzila, Hidalgo.' },
-    { title: 'DIRECCIÓN 2: ', info: 'Vallejo 1007, S. C. T, Gustavo A. Madero, CDMX.' }
+    { title: 'DIRECCIÓN 1: ', info: 'Huitzila, Tizayuca, Hidalgo.' },
+    { title: 'DIRECCIÓN 2: ', info: 'Vallejo, S. C. T, Gustavo A. Madero, CDMX.' }
 ]
 
 export default function Profile() {
@@ -19,7 +19,6 @@ export default function Profile() {
         <div className="profile">
             <BackgroundSection />
             <div className="dark" />
-            <Container>
                 <Container className='box'>
                     <Row className="info">
                         <Col xs={12} md={4} className="info__image">
@@ -50,7 +49,6 @@ export default function Profile() {
                         </Col>
                     </Row>
                     <SocialMedia />
-                </Container>
             </Container>
         </div>
     )
